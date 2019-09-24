@@ -43,3 +43,13 @@ r_phrase = p_phrase[::-1]
 for item in inventory:
     item_desc, number, cost = item.split(", ")
     print("The store has {} {}, each for {} USD.".format(number, item_desc, cost))
+    
+str1 = "I love python"
+# HINT: what's the accumulator? That should go here.
+
+#Currently there is a string called str1. Write code to create a list called chars which should contain the characters from str1. Each character in str1 should be its own element in the list chars.
+chars = []
+for w in str1:
+    chars.append(w)
+print(chars)
+
